@@ -1,0 +1,50 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>Forms</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="form-styles.css">
+  <link rel="stylesheet" href="#">
+</head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>
+          Tell us a bit about you.
+        </legend>
+          <label>
+            First Name : <input type="text" name="firstname" maxlength="100">
+          </label>
+        </br>
+          <label>
+            Last Name : <input type="text" name="lastname" maxlength="100">
+          </label>
+        </br>
+          <label>
+            Email : <input type="text" name="email" maxlength="100">
+          </label>
+        </br>
+          <label>
+            Thirsty?
+          </label>
+          <input type="radio" name="thirst" value="yes">Yep</input>
+          <input type="radio" name="thirst" value="kinda">Kinda</input>
+          <input type="radio" name="thirst" value="no">Nope</input>
+        </br>
+        <label>
+          What is your favorite beverage?
+        </label>
+        <select name="Your favorite beverage">
+          <option id="beer"value="Beer">Beer</option>
+          <option value="Coffee">Coffee</option>
+          <option value="Wine">Wine</option>
+          <option value="H2O">H2O</option>
+        </select>
+        </br>
+          <a href="#" id="button">Boom!</a>
+      </fieldset>
+    </form>
+  </body>
+</html>
