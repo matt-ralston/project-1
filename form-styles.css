@@ -1,5 +1,15 @@
+#lineOne, #sectionOne {
+  background: red;
+}
+
+.JSstyle {
+  font-size: 30px;
+}
+
+
+
 fieldset {
-  padding-bottom: 150px;
+  padding-bottom: 20px;
   font-family: 'helvetica'
 }
 
@@ -20,6 +30,9 @@ input {
   font-weight: bold;
   border: none;
 }
+    #button:hover {
+    background: tomato;
+  }
 
 #select {
   margin-top: 20px;
@@ -36,3 +49,28 @@ a {
 .second-class {
   background: green;
 }
+
+section {
+    padding: 10px;
+}
+#contact {
+  background: lightblue;
+}
+#thirsty {
+  background: tomato;
+}
+#beverage {
+  background: lightgreen;
+}
+.transportation {
+  margin-bottom: 50px;
+  background: yellow;
+}
+ #putThingsHere {
+    margin-bottom: 30px;
+
+ }
+
+
+
+

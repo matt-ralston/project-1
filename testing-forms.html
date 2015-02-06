@@ -11,6 +11,7 @@
   <body>
     <form>
       <fieldset>
+      <section id="sectionOne">
         <legend>
           Tell us a bit about you.
         </legend>
@@ -25,14 +26,17 @@
           <label>
             Email : <input type="text" name="email" maxlength="100">
           </label>
-        </br>
-          <label>
-            Thirsty?
-          </label>
-          <input type="radio" name="thirst" value="yes">Yep</input>
-          <input type="radio" name="thirst" value="kinda">Kinda</input>
-          <input type="radio" name="thirst" value="no">Nope</input>
-        </br>
+      </section>
+    </fieldset>
+      <section id="thirsty">
+        <label>
+          Thirsty?
+        </label>
+        <input type="radio" name="thirst" value="yes">Yep</input>
+        <input type="radio" name="thirst" value="kinda">Kinda</input>
+        <input type="radio" name="thirst" value="no">Nope</input>
+      </section>
+      <section id="beverage">
         <label id="select">
           What is your favorite beverage?
         </label>
@@ -42,24 +46,44 @@
           <option value="Wine">Wine</option>
           <option value="H2O">H2O</option>
         </select>
-        </br>
-          <a href="#" id="button">Boom!</a>
-      </fieldset>
-    </form>
+      </section>
+
+
+
+    <section>How did you get to class today?
+      <ul>
+        <li id="lineOne">Bike</li>
+        <li>Car</li>
+        <li>Bus</li>
+        <li>Train</li>
+        <li>Hoofed it</li>
+      </ul>
+    </section>
+  </form>
+
+
 
 
     <section id="putThingsHere" class="first-class">
       Some content.
     </section>
 
-    <section id="thisHere">Other content.</section>
+<!--     <section id="thisHere">Other content.</section>
+ -->
+    <a id="button" href="#">Boom!</a>
 
     <script>
-      var element = document.getElementByID("thisHere");
 
-      alert('Wait a tic!');
+      var listItem =
+      document.getElementById('lineOne');
 
-      element.className = "second-class";
+      var contact =
+      document.getElementById('sectionOne');
+
+
+      listItem.className = "JSstyle";
+      contact.className = "JSstyle";
+
     </script>
 
   </body>
