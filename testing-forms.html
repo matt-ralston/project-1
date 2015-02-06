@@ -33,7 +33,7 @@
           <input type="radio" name="thirst" value="kinda">Kinda</input>
           <input type="radio" name="thirst" value="no">Nope</input>
         </br>
-        <label>
+        <label id="select">
           What is your favorite beverage?
         </label>
         <select name="Your favorite beverage">
@@ -46,5 +46,21 @@
           <a href="#" id="button">Boom!</a>
       </fieldset>
     </form>
+
+
+    <section id="putThingsHere" class="first-class">
+      Some content.
+    </section>
+
+    <section id="thisHere">Other content.</section>
+
+    <script>
+      var element = document.getElementByID("thisHere");
+
+      alert('Wait a tic!');
+
+      element.className = "second-class";
+    </script>
+
   </body>
 </html>
