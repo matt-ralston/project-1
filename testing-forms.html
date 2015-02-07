@@ -16,7 +16,7 @@
           Tell us a bit about you.
         </legend>
           <label>
-            First Name : <input type="text" name="firstname" maxlength="100">
+            First Name : <input id="firstName" type="text" name="firstname" maxlength="100">
           </label>
         </br>
           <label>
@@ -74,6 +74,8 @@
 
     <script>
 
+      function setup() {
+
       var listItem =
       document.getElementById('lineOne');
 
@@ -83,6 +85,15 @@
 
       listItem.className = "JSstyle";
       contact.className = "JSstyle";
+
+
+
+        var textInput;
+        textInput = document.getElementById('firstName')
+        textInput.focus();
+      }
+
+      window.addEventListener('load', setup, true);
 
     </script>
 
